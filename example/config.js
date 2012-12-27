@@ -1,9 +1,3 @@
-iconfig
-=======
-
-## 用法
-
-````
 var iconfig = require('../');
 var path = require('path');
 var config = {

@@ -1,0 +1,27 @@
+{
+  "name": "iconfig",
+    "version": "0.0.1",
+    "author": "jifeng (wade428@163.com)",
+    "contributors": [
+      ],
+    "homepage": "https://github.com/jifeng/iconfig",
+    "description": "config client based on iservice-client",
+    "keywords": [ "config", "iservice-client" ],
+    "dependencies": {
+      "iservice-client" : "0.0.22",
+      "clone": "0.1.2"
+    },
+    "engines": {
+      "node": ">=0.6.9"
+    },
+    "devDependencies": {
+      "should"          : ">=0.4.2",
+      "mocha"           : ">=0.9.0",
+      "netblackhole"    : ">=0.0.2",
+      "visionmedia-jscoverage" : ">=1.0.0"
+    },
+    "main"  : "./index.js",
+    "scripts": {
+      "test": "make test"
+    }
+}
