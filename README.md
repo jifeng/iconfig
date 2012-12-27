@@ -4,8 +4,9 @@ iconfig
 ## 用法
 
 ````
-var iconfig = require('../');
+var iconfig = require('iconfig');
 var path = require('path');
+
 var config = {
   switchs : false
 }

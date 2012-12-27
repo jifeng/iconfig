@@ -1,5 +1,6 @@
 var iconfig = require('../');
 var path = require('path');
+
 var config = {
   switchs : false
 }

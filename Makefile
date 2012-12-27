@@ -1,5 +1,5 @@
 TESTS = $(shell ls -S `find test -type f -name "*.js" -print`)
-TIMEOUT = 1000
+TIMEOUT = 10000
 MOCHA_OPTS =
 REPORTER = tap
 JSCOVERAGE = ./node_modules/jscover/bin/jscover
@@ -10,7 +10,7 @@ test:
 
 test-cov: lib-cov
 	@ICONFIG_COV=1 $(MAKE) test REPORTER=dot
-	@ICONFIG_COV_COV=1 $(MAKE) test REPORTER=html-cov > coverage.html
+	@ICONFIG_COV=1 $(MAKE) test REPORTER=html-cov > coverage.html
 
 lib-cov:
 	@rm -rf lib-cov
