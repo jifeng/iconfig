@@ -1,6 +1,11 @@
 iconfig
 =======
 
+## 安装
+
+````
+npm install iconfig
+
 ## 用法
 
 ````
