@@ -1,6 +1,9 @@
 iconfig
 =======
 
+## 说明
+依赖iservice-client的配置管理模块，主要针对的数据格式是json
+
 ## 安装
 
 ````
