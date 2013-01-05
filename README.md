@@ -5,6 +5,7 @@ iconfig
 
 ````
 npm install iconfig
+````
 
 ## 用法
 
@@ -39,4 +40,4 @@ client.on('change', function () {
 client.on('error', function (err) {
 
 });
-
+````
