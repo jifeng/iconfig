@@ -36,4 +36,11 @@ describe('iconfig', function () {
   it('normal sync config', function () {
     config.switchs.should.be.true;
   });
+
+  it('check ready ok', function (done) {
+    client.ready(function () {
+      done();
+    });
+  });
+
 });
